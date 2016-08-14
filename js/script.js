@@ -5,10 +5,10 @@ $(function(){
     // You must supply a Trove API key
     var troveAPIKey = '1oug01fc69cqe7gb';
     // Either provide full API query here or include options below
-    var apiQuery = 'canberra heritage places';
+    var apiQuery = 'lake';
     // Words you want to search for -- separate multiple values with spaces, eg:
     // var keywords = 'weather wragge';
-    var keywords = '';
+    var keywords = 'canberra act lake lakes';
     // How you want to combine keywords -- all, any, or phrase
     var keywordType = 'all'
     // Newspaper id numbers -- separate multiple values with spaces, eg:
@@ -18,7 +18,7 @@ $(function(){
     var byline = 'Created by <a href="https://timsherratt.org">Tim Sherratt</a>.'
     // var byline = '';
     // Add a tagline
-    var tagline = 'How well do you know your Canberra Heritage places?';
+    var tagline = 'How well do you know your Canberra lakes?';
     // Leave this alone unless you're publishing on a non-https server
     var useHttps = 'true';
 
